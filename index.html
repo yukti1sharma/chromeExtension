@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Hyperverge Dashboard</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Hyperverge Dashboard</h1>
+    </header>
+    <div class="widgets">
+      <div class="widget">
+        <h2>Google Slides</h2>
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSj0K_jN2y8JMzEXAMPLE/embed" frameborder="0"></iframe>
+      </div>
+      <div class="widget">
+        <h2>Pomodoro Timer</h2>
+        <div id="pomodoro-timer">
+          <p id="timer-label">Session</p>
+          <p id="time-left">25:00</p>
+          <button id="start_stop">Start</button>
+          <button id="reset">Reset</button>
+        </div>
+      </div>
+      <div class="widget">
+        <h2>Google Spreadsheet</h2>
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRLz9lEXAMPLE/embed" frameborder="0"></iframe>
+      </div>
+      <div class="widget">
+        <h2>Music</h2>
+        <button id="youtubeBtn">YouTube</button>
+        <button id="spotifyBtn">Spotify</button>
+        <div id="music-player"></div>
+      </div>
+      <div class="widget">
+        <h2>Book + Quote</h2>
+        <p id="book-quote">"The only limit to our realization of tomorrow is our doubts of today." - Franklin D. Roosevelt</p>
+      </div>
+      <div class="widget">
+        <h2>Daily Growth Checker</h2>
+        <input type="text" id="growth-input" placeholder="Enter today's growth...">
+        <button id="save-growth">Save</button>
+        <p id="growth-display"></p>
+      </div>
+      <div class="widget">
+        <h2>Announcements</h2>
+        <marquee>Welcome to Hyperverge Dashboard! Stay updated with the latest announcements.</marquee>
+      </div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+</html>
